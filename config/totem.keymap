@@ -59,10 +59,10 @@
         };
 
         // as = TAB
-        esc {
+        tab {
             timeout-ms = <25>;
             key-positions = <11 12>;
-            bindings = <&kp ESC>;
+            bindings = <&kp TAB>;
         };
 
         // op = DEL
