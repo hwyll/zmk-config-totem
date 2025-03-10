@@ -147,7 +147,7 @@ label= "BASE"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kP O       &kp P
+                &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &kp A       &KP S       &KP D       &KP F       &kp G           &kp H       &KP J       &KP K       &KP L       &KP SEMI
     &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp BSPC
                                         &kp LALT    &kp LGUI    &lt NUM SPACE   &lt NAV RET &td_caps    &td_gresc
