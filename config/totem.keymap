@@ -61,7 +61,7 @@
         // as = TAB
         tab {
             timeout-ms = <25>;
-            key-positions = <11 12>;
+            key-positions = <10 11>;
             bindings = <&kp TAB>;
         };
 
@@ -96,26 +96,26 @@
         // jk = [
         lbkt {
             timeout-ms = <25>;
-            key-positions = <17 18>;
+            key-positions = <16 17>;
             bindings = <&kp LBKT>;
         };
         // kl = ]
         rbkt {
             timeout-ms = <25>;
-            key-positions = <18 19>;
+            key-positions = <17 18>;
             bindings = <&kp RBKT>;
         };
 
         // m, = {
         lbrc {
             timeout-ms = <25>;
-            key-positions = <28 29>;
+            key-positions = <27 28>;
             bindings = <&kp LBRC>;
         };
         // ,. = }
         rbrc {
             timeout-ms = <25>;
-            key-positions = <29 30>;
+            key-positions = <28 29>;
             bindings = <&kp RBRC>;
         };
 
