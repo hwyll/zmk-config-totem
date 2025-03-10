@@ -58,6 +58,13 @@
             bindings = <&kp ESC>;
         };
 
+        // as = TAB
+        esc {
+            timeout-ms = <25>;
+            key-positions = <11 12>;
+            bindings = <&kp ESC>;
+        };
+
         // op = DEL
         del {
             timeout-ms = <25>;
