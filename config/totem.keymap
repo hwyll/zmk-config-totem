@@ -38,13 +38,6 @@
             tapping-term-ms = <175>;
             bindings = <&kp LSHFT>, <&caps_word>;
         };
-        // double-tap ` to ESC
-        td_gresc: tap_dance_gresc {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <175>;
-            bindings = <&kp GRAVE>, <&kp ESC>;
-        };
 
     };
 
@@ -65,6 +58,13 @@
             bindings = <&kp TAB>;
         };
 
+        // qe = ALT+F4
+        altf4 {
+            timeout-ms = <25>;
+            key-positions = <0 2>;
+            bindings = <&kp LA(F4)>;
+        };
+
         // op = DEL
         del {
             timeout-ms = <25>;
@@ -72,11 +72,11 @@
             bindings = <&kp DEL>;
         };
 
-        // qe = ALT+F4
-        altf4 {
+        // l; = `
+        tld {
             timeout-ms = <25>;
-            key-positions = <0 2>;
-            bindings = <&kp LA(F4)>;
+            key-positions = <18 19>;
+            bindings = <&kp GRAVE>;
         };
 
         // ui = (
@@ -144,7 +144,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI
     &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp BSPC
-                                        &kp LALT    &kp LGUI    &lt NUM SPACE   &lt NAV RET &td_caps    &td_gresc
+                                        &kp LALT    &kp LGUI    &lt NUM SPACE   &lt NAV RET &td_caps    &kp RALT
                         >;
                 };
 
@@ -157,7 +157,7 @@ label= "NUM"                               ;
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃     -_    ┃     =+    ┃           ┃     '"    ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃    TAB    ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃           ┃
+// ┃    SHFT   ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -166,7 +166,7 @@ label= "NUM"                               ;
 
                 &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0       
                 &trans      &trans      &trans      &trans      &trans          &trans      &kp MINUS   &kp EQUAL   &trans      &kp SQT 
-    &kp TAB     &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans      &trans         
+    &kp SHFT    &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans      &trans         
                                         &trans      &trans      &trans          &trans      &trans      &trans      
                         >;
                 };
