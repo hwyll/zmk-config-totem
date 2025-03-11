@@ -65,56 +65,56 @@
             bindings = <&kp LA(F4)>;
         };
 
-        // op = DEL
+        // ip = DEL
         del {
             timeout-ms = <25>;
-            key-positions = <8 9>;
+            key-positions = <7 9>;
             bindings = <&kp DEL>;
         };
 
-        // l; = `
+        // k; = `
         tld {
             timeout-ms = <25>;
-            key-positions = <18 19>;
+            key-positions = <17 19>;
             bindings = <&kp GRAVE>;
         };
 
-        // ui = (
+        // io = (
         lpar {
             timeout-ms = <25>;
-            key-positions = <6 7>;
+            key-positions = <7 8>;
             bindings = <&kp LPAR>;
         };
-        // io = )
+        // op = )
         rpar {
             timeout-ms = <25>;
-            key-positions = <7 8>;
+            key-positions = <8 9>;
             bindings = <&kp RPAR>;
         };
 
-        // jk = [
+        // kl = [
         lbkt {
             timeout-ms = <25>;
-            key-positions = <16 17>;
+            key-positions = <17 18>;
             bindings = <&kp LBKT>;
         };
-        // kl = ]
+        // l; = ]
         rbkt {
             timeout-ms = <25>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
             bindings = <&kp RBKT>;
         };
 
-        // m, = {
+        // ,. = {
         lbrc {
             timeout-ms = <25>;
-            key-positions = <27 28>;
+            key-positions = <28 29>;
             bindings = <&kp LBRC>;
         };
-        // ,. = }
+        // ./ = }
         rbrc {
             timeout-ms = <25>;
-            key-positions = <28 29>;
+            key-positions = <29 30>;
             bindings = <&kp RBRC>;
         };
 
@@ -163,7 +163,7 @@ label= "NUM"                               ;
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
-
+1
                 &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0       
                 &trans      &trans      &trans      &trans      &trans          &trans      &kp MINUS   &kp EQUAL   &trans      &kp SQT 
     &kp LSHFT   &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &kp BSLH     &trans         
