@@ -169,7 +169,7 @@ label= "NUM"                               ;
 label= "NAV"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃    P UP   ┃    UP     ┃  P DOWN   ┃           ┃
+//             ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃  P DOWN   ┃    UP     ┃   P UP    ┃           ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃    LEFT   ┃   DOWN    ┃   RIGHT   ┃           ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
@@ -180,7 +180,7 @@ label= "NAV"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &trans      &trans      &trans      &trans      &trans          &trans      &kp PG_UP   &kp UP     &kp PG_DN   &trans
+                &trans      &trans      &trans      &trans      &trans          &trans      &kp PG_DN   &kp UP     &kp PG_UP   &trans
                 &trans      &trans      &trans      &trans      &trans          &trans      &kp LEFT    &kp DOWN   &kp RIGHT   &trans
     &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans     &trans      &trans       &trans      
                                         &trans      &trans      &trans          &trans      &trans      &trans      
