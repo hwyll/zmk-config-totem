@@ -169,9 +169,9 @@ label= "NUM"                               ;
 label= "NAV"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃           ┃           ┃     UP    ┃           ┃           ┃   ┃           ┃  P DOWN   ┃    UP     ┃   P UP    ┃           ┃
+//             ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃    P UP   ┃    UP     ┃  P DOWN   ┃           ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃           ┃   LEFT    ┃    DOWN   ┃   RIGHT   ┃           ┃   ┃           ┃    LEFT   ┃   DOWN    ┃   RIGHT   ┃           ┃
+//             ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃    LEFT   ┃   DOWN    ┃   RIGHT   ┃           ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -180,8 +180,8 @@ label= "NAV"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &trans      &trans      &kp UP      &trans      &trans          &trans      &kp PG_DN   &kp UP     &kp PG_UP   &trans
-                &trans      &kp LEFT    &kp DOWN    &kp RIGHT   &trans          &trans      &kp LEFT    &kp DOWN   &kp RIGHT   &trans
+                &trans      &trans      &trans      &trans      &trans          &trans      &kp PG_UP   &kp UP     &kp PG_DN   &trans
+                &trans      &trans      &trans      &trans      &trans          &trans      &kp LEFT    &kp DOWN   &kp RIGHT   &trans
     &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans     &trans      &trans       &trans      
                                         &trans      &trans      &trans          &trans      &trans      &trans      
                         >;
