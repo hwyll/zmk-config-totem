@@ -51,13 +51,6 @@
             bindings = <&kp ESC>;
         };
 
-        // as = TAB
-        tab {
-            timeout-ms = <25>;
-            key-positions = <10 11>;
-            bindings = <&kp TAB>;
-        };
-
         // qe = ALT+F4
         altf4 {
             timeout-ms = <25>;
