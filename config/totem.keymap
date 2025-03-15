@@ -60,7 +60,7 @@
             #binding-cells = <0>;
             tapping-term-ms = <175>;
             bindings = <&kp LCTRL>, <kp ESC>;
-        }
+        };
 
     };
 
