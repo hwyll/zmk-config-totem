@@ -45,13 +45,22 @@
 
         // Tap Dance
         // double-tap LSHIFT to turn on CAPS WORD
-        td_caps: td_caps_word {
+        td_shft_caps: td_shft_caps {
             compatible = "zmk,behavior-tap-dance";
-            label = "CAPDANCE";
+            label = "SHFT CAPS";
             #binding-cells = <0>;
             tapping-term-ms = <175>;
             bindings = <&kp LSHFT>, <&caps_word>;
         };
+
+        // double tap LCTRL for ESC
+        td_ctrl_esc: td_ctrl_esc {
+            compatible = "zmk,behavior-tap-dance";
+            label = "CTRL ESC";
+            #binding-cells = <0>;
+            tapping-term-ms = <175>;
+            bindings = <&kp LCTRL>, <kp ESC>;
+        }
 
     };
 
@@ -147,7 +156,7 @@ label= "default"                              ;
                   &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P
                   &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp SEMI
     &mt LSHFT TAB &mt LALT Z    &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp BSPC
-                                              &mt LCTRL ESC &kp LGUI      &lt NUM SPACE     &lt NAV RET   &td_caps      &mt RALT GRAVE
+                                              &td_ctrl_esc  &kp LGUI      &lt NUM SPACE     &lt NAV RET   &td_shft_caps &mt RALT GRAVE
                         >;
                 };
 
