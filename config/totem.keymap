@@ -68,60 +68,60 @@
             
         // qw = ESC
         esc {
-            timeout-ms = <25>;
+            timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
 
         // qe = ALT+F4
         altf4 {
-            timeout-ms = <25>;
+            timeout-ms = <50>;
             key-positions = <0 2>;
             bindings = <&kp LA(F4)>;
         };
 
         // ;bkps = DEL
         del {
-            timeout-ms = <25>;
+            timeout-ms = <50>;
             key-positions = <19 31>;
             bindings = <&kp DEL>;
         };
 
         // rt = (
         lpar {
-            timeout-ms = <25>;
+            timeout-ms = <50>;
             key-positions = <3 4>;
             bindings = <&kp LPAR>;
         };
         // yu = )
         rpar {
-            timeout-ms = <25>;
+            timeout-ms = <50>;
             key-positions = <5 6>;
             bindings = <&kp RPAR>;
         };
 
         // fg = [
         lbkt {
-            timeout-ms = <25>;
+            timeout-ms = <50>;
             key-positions = <13 14>;
             bindings = <&kp LBKT>;
         };
         // hj = ]
         rbkt {
-            timeout-ms = <25>;
+            timeout-ms = <50>;
             key-positions = <15 16>;
             bindings = <&kp RBKT>;
         };
 
         // vb = {
         lbrc {
-            timeout-ms = <25>;
+            timeout-ms = <50>;
             key-positions = <24 25>;
             bindings = <&kp LBRC>;
         };
         // nm = }
         rbrc {
-            timeout-ms = <25>;
+            timeout-ms = <50>;
             key-positions = <26 27>;
             bindings = <&kp RBRC>;
         };
