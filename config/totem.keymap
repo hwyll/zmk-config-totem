@@ -87,42 +87,42 @@
             bindings = <&kp DEL>;
         };
 
-        // rt = (
+        // io = (
         lpar {
             timeout-ms = <50>;
-            key-positions = <3 4>;
+            key-positions = <7 8>;
             bindings = <&kp LPAR>;
         };
-        // yu = )
+        // op = )
         rpar {
             timeout-ms = <50>;
-            key-positions = <5 6>;
+            key-positions = <8 9>;
             bindings = <&kp RPAR>;
         };
 
-        // fg = [
+        // kl = [
         lbkt {
             timeout-ms = <50>;
-            key-positions = <13 14>;
+            key-positions = <17 18>;
             bindings = <&kp LBKT>;
         };
-        // hj = ]
+        // l; = ]
         rbkt {
             timeout-ms = <50>;
-            key-positions = <15 16>;
+            key-positions = <18 19>;
             bindings = <&kp RBKT>;
         };
 
-        // vb = {
+        // ,. = {
         lbrc {
             timeout-ms = <50>;
-            key-positions = <24 25>;
+            key-positions = <28 29>;
             bindings = <&kp LBRC>;
         };
-        // nm = }
+        // ./ = }
         rbrc {
             timeout-ms = <50>;
-            key-positions = <26 27>;
+            key-positions = <29 30>;
             bindings = <&kp RBRC>;
         };
 
