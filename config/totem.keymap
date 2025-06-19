@@ -145,7 +145,7 @@ label= "default"                              ;
 //               ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫   ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫
 //               ┃       A     ┃       S     ┃       D     ┃       F     ┃       G     ┃   ┃       H     ┃       J     ┃       K     ┃       L     ┃       ;     ┃
 // ┏━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫   ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┓
-// ┃  TAB / SHFT ┃   Z / ALT   ┃       X     ┃       C     ┃       V     ┃       B     ┃   ┃       N     ┃       M     ┃       ,     ┃       .     ┃       /     ┃      BSPC   ┃
+// ┃  TAB / SHFT ┃   Z / ALT   ┃       X     ┃       C     ┃       V     ┃       B     ┃   ┃       N     ┃       M     ┃       ,     ┃       .     ┃    / ALT    ┃      BSPC   ┃
 // ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫   ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛
 //                                           ┃     LCTRL   ┃     LGUI    ┃   SPC / NUM ┃   ┃  RET / NAV  ┃     SHFT    ┃      ESC    ┃
 //                                           ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛   ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛
@@ -154,7 +154,7 @@ label= "default"                              ;
 
                   &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P
                   &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp SEMI
-    &mt LSHFT TAB &mt LALT Z    &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp BSPC
+    &mt LSHFT TAB &mt LALT Z    &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &mt RALT FSLH &kp BSPC
                                               &kp LCTRL     &kp LGUI      &lt NUM SPACE     &lt NAV RET   &kp RSHFT     &kp ESC
                         >;
                 };
@@ -198,7 +198,7 @@ label= "base"                              ;
 //               ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫   ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫
 //               ┃       A     ┃       S     ┃       D     ┃       F     ┃       G     ┃   ┃       H     ┃       J     ┃       K     ┃       L     ┃       ;     ┃
 // ┏━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫   ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┓
-// ┃  TAB / SHFT ┃   Z / ALT   ┃       X     ┃       C     ┃       V     ┃       B     ┃   ┃       N     ┃       M     ┃       ,     ┃       .     ┃       /     ┃      BSPC   ┃
+// ┃  TAB / SHFT ┃   Z / ALT   ┃       X     ┃       C     ┃       V     ┃       B     ┃   ┃       N     ┃       M     ┃       ,     ┃       .     ┃    / ALT    ┃      BSPC   ┃
 // ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┫   ┣━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛
 //                                           ┃     LCTRL   ┃     LGUI    ┃   SPC / NUM ┃   ┃  RET / NAV  ┃     SHFT    ┃      ESC    ┃
 //                                           ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛   ┗━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━━┛
@@ -207,7 +207,7 @@ label= "base"                              ;
 
                   &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P
                   &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp SEMI
-    &mt LSHFT TAB &mt LALT Z    &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp BSPC
+    &mt LSHFT TAB &mt LALT Z    &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &mt RALT FSLH &kp BSPC
                                               &kp LCTRL     &kp LGUI      &lt NUM SPACE     &lt NAV RET   &kp RSHFT     &kp ESC
                         >;
                 };
